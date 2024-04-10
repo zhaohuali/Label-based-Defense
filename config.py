@@ -36,11 +36,11 @@ class Logger(object):
     def set_email_warming(self, logger):
 
         mail_handler = SMTPHandler(
-            mailhost=('smtp.163.com', 25),
-            fromaddr='codebrian2021@163.com',
-            toaddrs='lizhaohua@e.gzhu.edu.cn',
+            mailhost=('xxx.com', 25),
+            fromaddr='xxx@xxx',
+            toaddrs='xxx@xxx',
             subject='Code run complete!',
-            credentials=('codebrian2021@163.com', 'DHUNSFTDLBCUJMTJ'))
+            credentials=('xxx', 'xxx'))
 
         mail_handler.setLevel(logging.CRITICAL)
 
